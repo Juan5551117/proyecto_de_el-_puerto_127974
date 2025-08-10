@@ -1,0 +1,47 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;         /* Fuente principal: Arial con respaldo sans-serif */
+    background-color: #f0f8ff;              /* Color de fondo azul claro */
+    margin: 20px;                           /* Márgenes exteriores de 20px alrededor del contenido */
+}
+
+/* Encabezado principal (título h1) */
+h1 {
+    color: #0074b8;                         /* Color azul para el texto del encabezado */
+}
+
+/* Estilo general para tablas */
+table {
+    width: 100%;                            /* La tabla ocupará todo el ancho disponible */
+    border-collapse: collapse;              /* Elimina espacios entre bordes de celdas */
+    margin-top: 15px;                       /* Separación superior de 15px respecto al contenido anterior */
+    background-color: #ffffff;              /* Fondo blanco para la tabla */
+}
+
+/* Aplica borde a la tabla y a todas las celdas (th y td) */
+table, th, td {
+    border: 1px solid #cccccc;              /* Borde gris claro de 1px */
+}
+
+/* Espaciado y alineación de texto dentro de las celdas */
+th, td {
+    padding: 10px;                          /* Espaciado interno de 10px en celdas */
+    text-align: left;                       /* Alineación del texto a la izquierda */
+}
+
+/* Clase para botones estilo enlace (como "Agregar Platillo") */
+.btn {
+    display: inline-block;                  /* Permite aplicar padding y márgenes como si fuera un bloque */
+    padding: 10px;                          /* Espaciado interno de 10px */
+    background-color: #0074b8;              /* Fondo azul */
+    color: white;                           /* Texto blanco */
+    text-decoration: none;                  /* Elimina el subrayado típico de los enlaces */
+    border-radius: 5px;                     /* Bordes redondeados de 5px */
+}
+
+/* Estilo para los campos de entrada y texto dentro de formularios */
+form input, form textarea {
+    width: 300px;                           /* Ancho fijo de 300px para todos los inputs y textareas */
+    padding: 5px;                           /* Espaciado interno de 5px */
+    margin-bottom: 10px;                    /* Separación inferior entre campos */
+}
