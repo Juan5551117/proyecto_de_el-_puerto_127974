@@ -71,7 +71,8 @@
             <td>
                 <!-- Enlace para editar el platillo, enviando su ID por GET -->
                 <a href="editar.php?id=<?= $row['id'] ?>">Editar</a> |
- <!-- Error de lógica encontrado y solucionado no se declaro ningun parámetro a la acción al botón borrar-->
+<!-- Error de lógica encontrado no se declaro ningun parámetro a la acción al botón borrar ->
+<!--solucion se declaro el parámetro a la acción al botón borrar -->
                 <!-- Enlace para eliminar,-->
                 <a href="borrar.php?id=<?= $row['id'] ?>" 
                    onclick="event.preventDefault(); 

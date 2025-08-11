@@ -26,7 +26,7 @@ Este <div> crea un contenedor con las siguientes características:
 </br>
 </br>
 </br>
- <!-- Botón para ingresar como usuario -->
+ <!-- Botón para ingresar como cliente -->
 <button class="boton boton Secundario">.
     <a href="https://elpuertodejuan.infy.uk/paginainicial.php" target="_blank" rel="noopener">Ingresar como Cliente hacer clic aqui</a>
 </button>

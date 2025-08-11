@@ -1,0 +1,23 @@
+Código Mysql
+//Crear la tabla "admins" solo si no existe previamente
+CREATE TABLE IF NOT EXISTS admins (
+  // Campo 'id' que será la clave primaria y se incrementa automáticamente
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  // Campo para el nombre de usuario, con un máximo de 50 caracteres y obligatorio (NOT NULL)
+  usuario VARCHAR(50) NOT NULL,
+  // Campo para la contraseña, con un máximo de 255 caracteres y obligatorio
+  contrasena VARCHAR(255) NOT NULL
+);
+// Crear la tabla "platillos" solo si no existe previamente
+CREATE TABLE IF NOT EXISTS platillos (
+  // Campo 'id' que será la clave primaria y se incrementa automáticamente
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  // Campo para el nombre del platillo, máximo 100 caracteres, obligatorio
+  nombre VARCHAR(100) NOT NULL,
+  // Campo para la descripción del platillo (tipo texto sin límite corto)
+  descripcion TEXT,
+  // Campo para el precio, con hasta 8 dígitos en total y 2 decimales
+  precio DECIMAL(8,2),
+  // Campo para indicar si el platillo está disponible (TRUE por defecto)
+  disponible BOOLEAN DEFAULT TRUE
+); 
